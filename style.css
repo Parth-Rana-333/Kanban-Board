@@ -71,8 +71,27 @@
     min-width: 120px;
     flex-shrink: 0;
 }
-.task {
-    background: white;
+.task-todo {
+    background: red;
+    color: black;
+    box-shadow: 0px 5px 15 px rgba(0, 0, 0, 0.25);
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: move;
+}
+.task-progress {
+    background: yellow;
+    color: black;
+    box-shadow: 0px 5px 15 px rgba(0, 0, 0, 0.25);
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: move;
+}
+.task-done {
+    background: green;
     color: black;
     box-shadow: 0px 5px 15 px rgba(0, 0, 0, 0.25);
     padding: 12px;
